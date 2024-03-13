@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wknd-spa-angular" mode="merge"/>
+    <filter root="/content/wknd-spa-angular" mode="merge"/>
+    <filter root="/content/dam/wknd-spa-angular" mode="merge">
+        <exclude pattern="/content/dam/wknd-spa-angular(/.*)?"/>
+        <include pattern="/content/dam/wknd-spa-angular/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/wknd-spa-angular/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/wknd-spa-angular" mode="merge"/>
+</workspaceFilter>
