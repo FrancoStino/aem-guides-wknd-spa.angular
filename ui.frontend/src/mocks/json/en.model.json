@@ -456,7 +456,7 @@
     ],
     ":items": {
     "text": {
-    "text": "<p>Hello World! Content Update!</p>\r\n",
+    "text": "<p>Hello World! Content Update! Updated mock content!</p>\r\n",
     "richText": true,
     ":type": "wknd-spa-angular/components/text"
     }

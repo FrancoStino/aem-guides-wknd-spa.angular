@@ -27,7 +27,7 @@
               "src/manifest.json"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -41,7 +41,7 @@
                 "src/logo512.png",
                 "src/manifest.json"
               ]
-        },
+            },
             "aem-develop": {
               "deployUrl": "/etc.clientlibs/wknd-spa-angular/clientlibs/clientlib-angular/resources/"
             },
@@ -139,7 +139,7 @@
               "src/manifest.json"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -162,5 +162,10 @@
   "defaultProject": "angular-app",
   "cli": {
     "analytics": "7a585af6-688f-4b46-ace2-52ac66d215b7"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
   }
 }
